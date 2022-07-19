@@ -86,6 +86,8 @@
 				font-weight:  bold;
 				cursor:  pointer;
 			}
+				
+			
 
 		</style>	
 
@@ -100,7 +102,6 @@
 				</div>			
 				<div class="two-column" style="text-align:right;">
 					<ul>
-						<li><a href="admin_index.html">Dashboard</a></li>
 						<li><a href="index.html">Log Out</a></li>						
 					</ul>				
 				</div>
@@ -110,22 +111,17 @@
 				<h1> ADMIN HOMEPAGE </h1>
 				<form action = "#" method = "POST">			
 				<fieldset>
-					<table>
+					<table style="padding-top:10px; padding-bottom: 10px;">
 						<tr>
-							<td align="center"> <input type="submit" value="ADD NEW STAFF" name="addNewStaff" formaction="admin_addstaff.jsp" style="background-color: #f4c077; border-radius: 5px; padding: 30px 40px;">
+							<td align="center"> <input type="submit" value="ADD NEW STAFF" name="addnewstaff" formaction="admin_addstaff.jsp" style="background-color: #f4c077; border-radius: 5px; padding: 30px 40px;">
 							</td>
-							<td align="center"> <input type="submit" value="UPDATE STAFF INFO" name="updateStaffInfo" formaction="admin_updatestaffinfo.jsp" style="background-color: #f4c077; border-radius: 5px; padding: 30px 40px;">
+							<td align="center"> <input type="submit" value="UPDATE STAFF INFO" name="updatestaffinfo" formaction="admin_updatestaffinfo.jsp" style="background-color: #f4c077; border-radius: 5px; padding: 30px 40px;">
+							</td>
+							<td align="center"> <input type="submit" value="UPDATE CUSTOMER INFO" name="updatecustinfo" formaction="admin_updatecustinfo.jsp" style="background-color: #f4c077; border-radius: 5px; padding: 30px 30px;">
 							</td>
 						</tr>
 
-						<tr>
-							<td align="center"> <input type="submit" value="VIEW STAFF LIST" name="viewStaffList" formaction="admin_viewstafflist.jsp" style="background-color: #f4c077; border-radius: 5px; padding: 30px 40px;">
-							</td>
-							<td align="center"> <input type="submit" value="UPDATE CUSTOMER INFO" name="updateCustInfo" formaction="admin_updatecustinfo.jsp" style="background-color: #f4c077; border-radius: 5px; padding: 30px 23px;">
-							</td>
-						</tr>
-
-					</table><br>							
+					</table>							
 				</fieldset>	
 				</form>	
 			</section>	
