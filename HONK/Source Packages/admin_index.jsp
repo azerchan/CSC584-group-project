@@ -115,9 +115,9 @@
 						<tr>
 							<td align="center"> <input type="submit" value="ADD NEW STAFF" name="addnewstaff" formaction="admin_addstaff.jsp" style="background-color: #f4c077; border-radius: 5px; padding: 30px 40px;">
 							</td>
-							<td align="center"> <input type="submit" value="UPDATE STAFF INFO" name="updatestaffinfo" formaction="admin_updatestaffinfo.jsp" style="background-color: #f4c077; border-radius: 5px; padding: 30px 40px;">
+							<td align="center"> <input type="submit" value="UPDATE STAFF INFO" name="updatestaffinfo" formaction="admin_viewstafflist.jsp" style="background-color: #f4c077; border-radius: 5px; padding: 30px 40px;">
 							</td>
-							<td align="center"> <input type="submit" value="UPDATE CUSTOMER INFO" name="updatecustinfo" formaction="admin_updatecustinfo.jsp" style="background-color: #f4c077; border-radius: 5px; padding: 30px 30px;">
+							<td align="center"> <input type="submit" value="UPDATE CUSTOMER INFO" name="updatecustinfo" formaction="admin_viewcustlist.jsp" style="background-color: #f4c077; border-radius: 5px; padding: 30px 30px;">
 							</td>
 						</tr>
 
